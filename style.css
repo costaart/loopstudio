@@ -1,0 +1,231 @@
+/*Reset em algumas predefinições do css*/
+
+body, p, h1, ul, li, blockquote {
+    padding: 0px;
+    margin: 0px;
+    }
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+    
+li {
+list-style: none;
+}
+    
+a {
+text-decoration: none;
+}
+
+
+.header-fundo {
+    background: url(/Desafios//Loopstudio/img/image-hero.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+}
+
+.header-logo a{
+    font-size: 36px;
+    margin: 0 0px;
+    font-weight: bold;
+}
+
+.header-nav ul {           /* serve para deixar os itens da lista um do lado do outro*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-nav a {
+    font-size: 24px;
+    display: block;
+    padding: 10px;
+}
+
+.header-nav a:hover {
+   color: #fff;
+}
+
+.header-titulo {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding: 30px;
+    border: solid;
+}
+
+.sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-imagem {
+    flex: 2 300px;
+    margin: 0 10px;
+}
+
+.sobre-texto {
+    flex: 1 160px;
+    align-self: flex-end;
+}
+.sobre-texto h1 {
+    font-size: 35px;
+}
+
+.sobre-texto p {
+    font-size: 15px;
+    line-height: 2;
+    color: #7c7c7c;
+}
+
+.produtos {
+    max-width: 1200px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.produtos a {
+    border: solid;
+    padding: 10px;
+}
+
+.produtos a:hover {
+    border: solid;
+    padding: 10px;
+    color: #7c7c7c;
+}
+
+.criacoes-imagem {
+    height: 500px;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    max-height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.criacoes-imagem2  {
+    height: 500px;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    max-height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.criacoes-imagem h2, .criacoes-imagem2 h2 {
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    margin-top: 420px;
+    margin-left: 20px;
+  
+    
+}
+.criacoes1 {
+background: url(/Desafios//Loopstudio/img/image-deep-earth.jpg) no-repeat center;
+background-size: cover;
+color: #fff;
+width: 260px;
+}
+.criacoes2 {
+background: url(/Desafios//Loopstudio/img/image-night-arcade.jpg) no-repeat center;
+background-size: cover;
+color: #fff;
+width: 260px;
+}
+.criacoes3 {
+background: url(/Desafios//Loopstudio/img/image-soccer-team.jpg) no-repeat center;
+background-size: cover;
+color: #fff;
+width: 260px;
+}
+.criacoes4 {
+background: url(/Desafios//Loopstudio/img/image-grid.jpg) no-repeat center;
+background-size: cover;
+color: #fff;
+width: 260px;
+}
+
+.criacoes5 {
+    background: url(/Desafios//Loopstudio/img/image-from-above.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    width: 260px;
+}
+.criacoes6 {
+    background: url(/Desafios//Loopstudio/img/image-pocket-borealis.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    width: 260px;
+}
+.criacoes7 {
+    background: url(/Desafios//Loopstudio/img/image-curiosity.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    width: 260px;
+}
+.criacoes8 {
+    background: url(/Desafios//Loopstudio/img/image-fisheye.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    width: 260px;
+}
+
+.footer {
+    color: #fff;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.linha1 {
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.linha1 h1 {
+    margin-right: 50px;
+    padding: 50px;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+.linha1 a img {
+    padding: 5px;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+.linha2 a {
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: #fff;
+}
