@@ -6,5 +6,5 @@ Desafio retirado do site https://www.frontendmentor.io/challenges/loopstudios-la
 ## Imagens
 
 #### Resultado
-![Desafio](imagens/loopstudio.png "Foto representando o desafio realizado.")
+![Desafio](imagens/loopstudio1.png "Foto representando o desafio realizado.")
 
